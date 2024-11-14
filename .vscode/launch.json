@@ -1,0 +1,62 @@
+// {
+//     "version": "0.1.0",
+//     "configurations": [
+//         {
+//             "name": "Python: Launch Scrapy Spider",
+//             "type": "python",
+//             "request": "launch",
+//             "module": "scrapy",
+//             "args": [
+//                 "runspider",
+//                 "/Users/tranlequynh/Documents/Quynh/ProtonX/chatbot_demo/chewy_chewy/chewy_chewy/spiders/chewy_chewy_crawler.py"
+//             ],
+//             "console": "integratedTerminal"
+//         }
+//     ]
+// }
+
+// {
+//     "version": "0.1.0",
+//     "configurations": [
+//         {
+//             "name": "Python: Launch Scrapy Spider",
+//             "type": "python",
+//             "request": "launch",
+//             "module": "streamlit",
+//             "args": [
+//                 "run",
+//                 "/Users/tranlequynh/Documents/Quynh/ProtonX/chatbot_demo/chewy_chewy/streamlit/bot_streamlit.py",
+//                 "--server.port=8501"
+//             ],
+//             "console": "integratedTerminal"
+//         }
+//     ]
+// }
+
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Python: serve",
+            "type": "python",
+            "request": "launch",
+            "program": "/Users/tranlequynh/Documents/Quynh/ProtonX/chatbot_demo/chewy_chewy/flask_serve.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "/Users/tranlequynh/miniconda3/envs/protonX_chatbot/bin/python"
+            }
+        },
+        {
+            "name": "Python: streamlit UI",
+            "type": "python",
+            "request": "launch",
+            "module": "streamlit",
+            "args": [
+                "run",
+                "/Users/tranlequynh/Documents/Quynh/ProtonX/chatbot_demo/chewy_chewy/streamlit/chatbot_main.py",
+                "--server.port=8501"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}

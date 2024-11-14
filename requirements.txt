@@ -1,0 +1,9 @@
+sentence_transformers
+streamlit
+chromadb
+sentence-transformers  # For embedding text into vectors
+Flask
+flask-cors
+openai
+reflection
+pandas

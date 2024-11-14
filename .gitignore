@@ -1,0 +1,7 @@
+# *.vscode/
+*__pycache__*
+.env
+databaseQQ
+/storeDB
+*/chroma
+*__pycache__
